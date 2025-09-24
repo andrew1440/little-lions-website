@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Little Lions Junior School</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="contact-info">
+            <span>Location: Olympic</span>
+            <span>Email: info@littlelions.edu</span>
+            <span>Phone: +123-456-7890</span>
+            <button class="donate-btn">Donate</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admission</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Donation Section -->
+    <section class="donation">
+        <div class="donation-form-container">
+            <h2>Your Gift Goes Twice as Far</h2>
+            <form class="donation-form">
+                <div class="suggested-amounts">
+                    <label>Suggested Amounts:</label>
+                    <div class="amount-buttons">
+                        <button type="button" class="amount-btn" data-amount="10">$10</button>
+                        <button type="button" class="amount-btn" data-amount="25">$25</button>
+                        <button type="button" class="amount-btn" data-amount="50">$50</button>
+                        <button type="button" class="amount-btn" data-amount="100">$100</button>
+                        <button type="button" class="amount-btn" data-amount="250">$250</button>
+                        <button type="button" class="amount-btn" data-amount="500">$500</button>
+                        <button type="button" class="amount-btn" data-amount="1000">$1000</button>
+                    </div>
+                </div>
+                <div class="categories">
+                    <label>Categories:</label>
+                    <div class="category-buttons">
+                        <button type="button" class="category-btn">Food</button>
+                        <button type="button" class="category-btn">Fee</button>
+                        <button type="button" class="category-btn">Classrooms</button>
+                        <button type="button" class="category-btn">School trip</button>
+                        <button type="button" class="category-btn">School van</button>
+                        <button type="button" class="category-btn">Uniform</button>
+                    </div>
+                </div>
+                <div class="custom-amount">
+                    <label for="custom-amount">Custom Amount:</label>
+                    <input type="number" id="custom-amount" name="custom-amount" placeholder="Enter amount">
+                </div>
+                <div class="billing-info">
+                    <h3>Billing Information</h3>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="text" name="address" placeholder="Address" required>
+                    <input type="tel" name="phone" placeholder="Phone" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="dedicate-gift">
+                    <input type="checkbox" id="dedicate" name="dedicate">
+                    <label for="dedicate">Dedicate this gift in memory or honor of someone</label>
+                    <input type="text" id="dedication" name="dedication" placeholder="Name (optional)">
+                </div>
+                <div class="payment-details">
+                    <h3>Payment Details</h3>
+                    <p>Payment form would be integrated here (e.g., Stripe, PayPal)</p>
+                </div>
+                <button type="submit" class="submit-donation">Submit Donation</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Gallery Strip -->
+    <section class="gallery-strip">
+        <h2>Our School in Action</h2>
+        <div class="gallery-images">
+            <img src="images/gallery1.jpg" alt="Students in classroom">
+            <img src="images/gallery2.jpg" alt="Sports activity">
+            <img src="images/gallery3.jpg" alt="Art class">
+            <img src="images/gallery4.jpg" alt="School event">
+            <img src="images/gallery5.jpg" alt="Faculty interaction">
+            <img src="images/gallery6.jpg" alt="Outdoor activities">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <img src="images/logo.jpg" alt="Little Lions Junior School Logo" class="logo">
+            <p>Welcome to Little Lions Junior School, where we nurture future leaders through education, creativity, and compassion in a collaborative community.</p>
+            <div class="contact-info">
+                <p>Location: Olympic</p>
+                <p>Phone: +123-456-7890</p>
+                <p>Email: info@littlelions.edu</p>
+                <p>Operating Hours: 8:00 am - 4:00 pm</p>
+            </div>
+            <div class="quick-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="admissions.html">Admission</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
